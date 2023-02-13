@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.title {
+  margin-top: 10px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.signupbtn {
+  position: absolute;
+  right: 10px;
+  height: 35px;
+  padding: 10px;
+  width: 90px;
+  background-color: palevioletred;
+}
+.loginnavbtn {
+  position: absolute;
+  right: 10px;
+  height: 35px;
+  padding: 10px;
+  width: 90px;
+  background-color: palevioletred;
+}
+.login-box {
+  background-color: yellow;
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 10px;
+}
+label {
+  font-size: x-large;
+}
+input {
+  display: block;
+  height: 30px;
+  width: 250px;
+}
+.subbtn {
+  text-align: center;
+  margin-top: 10px;
+}
+.login-btn {
+  height: 25px;
+}
+.main {
+  text-align: center;
+}
+.login {
+  background-color: aqua;
+}
