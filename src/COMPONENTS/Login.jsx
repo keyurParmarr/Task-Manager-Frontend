@@ -5,12 +5,13 @@ import { toast } from "react-toastify";
 import Cookies from "js-cookie";
 import axios from "axios";
 import "./Login.css";
+import { url } from "../App";
 export const Login = () => {
   const navigate = useNavigate();
   const { setUserdata, setUsertask } = useContext(UserContext);
   const [details, setdetails] = useState({});
   const logindata = async () => {
-    const { data } = await axios.post(`http://localhost:5000/login`, details);
+    const { data } = await axios.post(`${url}/login`, details);
     if (data.msg) {
       return toast.error(data.msg);
     }

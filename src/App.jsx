@@ -18,7 +18,7 @@ export const App = () => {
       navigate("/");
     }
     async function fetchData() {
-      const { data } = await axios.post(`http://localhost:5000/tokenlogin`, {
+      const { data } = await axios.post(`${url}/tokenlogin`, {
         token,
       });
       if (data.email) {
