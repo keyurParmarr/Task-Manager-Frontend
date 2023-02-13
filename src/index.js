@@ -20,6 +20,7 @@ root.render(
       newestOnTop={true}
       closeOnClick
       theme="colored"
+      bodyClassName={"grow-font-size"}
     />
   </>
   // </React.StrictMode>
